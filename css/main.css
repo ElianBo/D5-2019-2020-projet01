@@ -4,81 +4,73 @@
   margin-left: auto;
   margin-right: auto;
   width: 850px;
-
 }
 
 img {
-display: block;
+  display: block;
   margin-left: auto;
-margin-right: auto;
-width: 700px;
-padding: 30px;
+  margin-right: auto;
+  width: 700px;
+  padding: 30px;
 }
 
-
-h1{margin-left: auto;
-margin-right: auto;
-width: 1000px;
-padding: 30px;
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  padding: 30px;
 }
 
-h2{margin-left: auto;
-margin-right: auto;
-width: 900px;
-padding: 30px;}
-
-h4 {margin-left: auto;
-margin-right: auto;
-width: 800px;
-quotes: "“" "”";
-padding: 30px;
-text-align: center;}
-
-.colonnes02 {margin-left: auto;
-margin-right: auto;
-width: 700px;
-padding: 30px;
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  padding: 30px;
 }
 
-
-h1::after{
-
-content:"";
-display: block;
-background-color:black;
-min-width: 80px;
-min-height: 10px;
-max-width: 400px;
-margin-top:30px;
+h4 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  quotes: "“""”";
+  padding: 30px;
+  text-align: center;
 }
 
-h2::after{
-
-content:"";
-display: block;
-background-color:black;
-min-width: 80px;
-min-height: 5px;
-max-width: 270px;
-margin-top: 15px;
-
+.colonnes02 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  padding: 30px;
 }
 
+h1::after {
+  content: "";
+  display: block;
+  background-color: black;
+  min-width: 80px;
+  min-height: 10px;
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  background-color: black;
+  min-width: 80px;
+  min-height: 5px;
+  max-width: 270px;
+  margin-top: 15px;
+}
 
 .header {
-display: 1;
-
+  display: 1;
   overflow: hidden;
   padding: 20px 10px;
-
-
-
 }
 
-
 .header a {
-
-
   float: left;
   color: black;
   text-align: center;
@@ -87,25 +79,17 @@ display: 1;
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-
 }
-
-
-
-
 
 .header a.bio {
   font-size: 35px;
   font-weight: bold;
-
 }
 
 .header a:hover {
-
   color: black;
   text-decoration: underline;
 }
-
 
 .header a.active {
   font-size: 35px;
@@ -114,120 +98,98 @@ display: 1;
   text-decoration: underline;
 }
 
-
-
 .biography {
-
-
-float: left;
-width: 49.03%;
-border: solid;
-padding: 5px;
+  float: left;
+  width: 49.03%;
+  border: solid;
+  padding: 5px;
 }
 
 .biography a {
-
   margin-left: auto;
   margin-right: auto;
-
-
 }
-.futur {
 
+.futur {
   float: right;
-width: 49.02%;
-border: solid;
-padding: 5px;
+  width: 49.02%;
+  border: solid;
+  padding: 5px;
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
-
-
-
   .colonnes01 {
-columns: 1;
+    columns: 1;
     margin-left: auto;
     margin-right: auto;
     width: 450px;
-
-
   }
 
   img {
-  display: block;
+    display: block;
     margin-left: auto;
-  margin-right: auto;
-  width: 350px;
-  padding: 20px;
+    margin-right: auto;
+    width: 350px;
+    padding: 20px;
   }
 
-
-  h1{margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-  padding: 20px;
-
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 20px;
   }
 
-  h2{margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-  padding: 30px;}
-
-  h4 {margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-  quotes: "“" "”";
-  padding: 30px;
-  text-align: center;}
-
-  .colonnes02 {margin-left: auto;
-  margin-right: auto;
-  width: 420px;
-  padding: 30px;
+  h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 30px;
   }
 
-
-  h1::after{
-
-  content:"";
-  display: block;
-  background-color:black;
-  min-width: 80px;
-  min-height: 10px;
-  max-width: 230px;
-  margin-top:30px;
+  h4 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    quotes: "“""”";
+    padding: 30px;
+    text-align: center;
   }
 
-  h2::after{
-
-  content:"";
-  display: block;
-  background-color:black;
-  min-width: 80px;
-  min-height: 5px;
-  max-width: 270px;
-  margin-top: 15px;
-
+  .colonnes02 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    padding: 30px;
   }
 
+  h1::after {
+    content: "";
+    display: block;
+    background-color: black;
+    min-width: 80px;
+    min-height: 10px;
+    max-width: 230px;
+    margin-top: 30px;
+  }
+
+  h2::after {
+    content: "";
+    display: block;
+    background-color: black;
+    min-width: 80px;
+    min-height: 5px;
+    max-width: 270px;
+    margin-top: 15px;
+  }
 
   .header {
-
-
-
     overflow: hidden;
     padding: 20px 10px;
-
-
-
   }
 
-
   .header a {
-
-
     float: left;
     color: black;
     text-align: center;
@@ -236,25 +198,17 @@ columns: 1;
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
-
   }
-
-
-
-
 
   .header a.bio {
     font-size: 35px;
     font-weight: bold;
-
   }
 
   .header a:hover {
-
     color: black;
     text-decoration: underline;
   }
-
 
   .header a.active {
     font-size: 35px;
@@ -263,31 +217,17 @@ columns: 1;
     text-decoration: underline;
   }
 
-
-
   .biography {
-
-
-
-  width: 450px;
-  border: solid;
-  padding: 5px;
+    width: 450px;
+    border: solid;
+    padding: 5px;
   }
 
-  .biography a {
-
-  }
-
+  .biography a {}
 
   .futur {
-
-
-  width: 450px;
-  border: solid;
-  padding: 5px;
+    width: 450px;
+    border: solid;
+    padding: 5px;
   }
-
-
-
-
 }
